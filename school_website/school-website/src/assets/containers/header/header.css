@@ -1,9 +1,17 @@
 
 .header{
 
-    margin-inline: 7vw
+    
+    
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+    
+    
 }
 
+.header > * {
+
+    margin-inline: 7vw;
+}
 .header-title {
 
    
@@ -15,7 +23,7 @@
     /* or 45px */
     
     color: #FFFFFF;
-
+    margin-top: 3.625rem;
 }
 
 .header-text {
@@ -30,6 +38,7 @@ line-height: 200%;
 
 
 color: #FFFFFF;
+margin-top: 1rem;
 
 }
 
@@ -55,14 +64,15 @@ align-items: center;
 gap:.5rem;
 
 color: #FFFFFF;
-
+margin-top: 2.125rem;
 }
 
 .student-content{
 
     
-    min-width: calc(100% + 7vw);
+    min-width: calc(100% - 6vw);
     justify-content: space-between;
+    margin-top: 1.2rem;
 }
 
 .header-btn img { width: 16px; height:16px}
@@ -70,7 +80,7 @@ color: #FFFFFF;
 .header-student-image {
 
     display: block;
-    /*transform: translate(20%, 00%);*/
+    
    
 }
 
@@ -122,7 +132,7 @@ color: #023047;
 
 width: 182px;
 height:75px;
-transform: translate(100px);
+/*transform: translate(50px);*/
 
 }
 
@@ -130,7 +140,7 @@ transform: translate(100px);
 
 width: 160px;
 height:75px;
-transform: translate(100px);
+/*transform: translate(100px);*/
 
 }
 
@@ -151,5 +161,48 @@ color: #023047;
 
 }
 
+.student-content{
+
+    position:relative;
+}
+
+.header-student-enrol{
+  
+    border:none;
+   
+}
+
+.header-student-rating{
+  border:none;
+ 
+  
+}
+
+.header-student-enrols-container{
+
+    background: linear-gradient(180deg, #6F7DFB 0%, #3B448F 100%);
+    border-radius: 24px;
+    width:250px;
+    width: 192px;
+    height: 84px;
+    margin-bottom:48px;
+
+    position: absolute;
+    top: 30%;
+    left: 0%;
+}
+
+.header-student-rating-container {
+
+width: 172px;
+height: 80px;
+background: linear-gradient(180deg, #6F7DFB 0%, #3B448F 100%);
+border-radius: 24px;
+
+position: absolute;
+top:63%;
+left:0%;
+
+}
 
 

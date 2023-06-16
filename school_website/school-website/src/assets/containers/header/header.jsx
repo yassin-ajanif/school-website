@@ -28,20 +28,23 @@ Game Dev</div>
 
 <div className="students-enrols">
 
-
-      <button className="header-student-enrol">
+<div className="header-student-enrols-container">
+<button className="header-student-enrol">
 
       <div className="header-student-enrol-numbers">32K</div>
       <div className="header-student-enrol-expression">Students Enrolled</div>
 
-      </button>
+</button>
+</div>
 
-      <button className="header-student-rating">
+<div className="header-student-rating-container">
+<button className="header-student-rating">
 
       <div className="header-student-rating-start">4.7 <img src={start} /></div>
       <div className="header-student-rating-overall">Overall Rating</div>
 
-      </button>
+</button>
+</div>
 
       </div>
 

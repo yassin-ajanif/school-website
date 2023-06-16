@@ -1,0 +1,57 @@
+
+.courses{
+
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+    padding-bottom: 4.375rem;
+}
+
+.course-image{
+
+width:100%;
+margin-inline:2rem;
+margin: 0 auto;
+}
+
+
+.course-image img{
+
+    width: 100%;
+    
+}
+
+.ourCourses{
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.875rem;
+    line-height: 120%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 3.938rem;
+    padding-top: 3.938rem;
+}
+
+.AllCourses{
+
+padding: 0.75rem 2rem;
+background: #DA722C;
+border-radius: 24px;
+color:white;
+display: block;
+margin-inline: auto 0;
+margin-right: 7vw;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+border:none;
+color: #FFFFFF;
+
+}
+

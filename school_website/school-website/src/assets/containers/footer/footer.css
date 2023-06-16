@@ -1,0 +1,96 @@
+
+.footer{
+
+    background-color: black;
+    color:white;
+   text-align: center;
+
+   font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 200%;
+color: #FFFFFF;
+padding: 3.75rem 0 4.375rem 0
+}
+
+.quicklinks-container{}
+
+.quick-links,.Course,.contact-us{
+
+    color: #DA722C;
+    margin-bottom: .9rem;
+}
+
+
+.contact,.privacy,.terms,
+.login,.download,.all-courses,
+.contact-email,
+.icon,.footer-about{
+
+    margin-bottom: .563rem
+}
+
+.footer-about{}
+
+.contact{}
+
+.privacy{}
+
+.terms{
+
+    margin-bottom: 2.25rem;
+}
+
+.Course-container{}
+
+.Course{
+
+
+   
+}
+
+.login{}
+
+.download{}
+
+.all-courses{
+
+    margin-bottom: 2.25rem;
+}
+
+.email-input-button{
+    display: grid;
+    margin-inline: 2rem
+}
+
+.email-input-button button{
+
+    margin-inline: 8.75rem;  
+   background: #023047;
+   border-radius: 8px;
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 200%;
+/* identical to box height, or 32px */
+
+
+color: #FFFFFF;
+
+}
+
+.contact-us-container{}
+
+.contact-us{}
+
+.contact-email{}
+
+.icon{}
+
+.email-input-button{}
+
+.email{}
+
+.email-input{}
+
+.submit-button{}
