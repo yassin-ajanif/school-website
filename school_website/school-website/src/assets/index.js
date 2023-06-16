@@ -1,0 +1,5 @@
+export { default as Header} from './containers/header/header'
+export {default as Testimonials} from './containers/testimonials/testimonials'
+export {default as Courses} from './containers/courses/courses'
+export {default as Footer} from './containers/footer/footer'
+export {default as CTA } from './containers/CTA/CTA'

@@ -1,0 +1,41 @@
+
+.logo {
+
+  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.25rem;
+    line-height: 2.6rem;
+    color: #ffffff;
+
+}
+
+.navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar-content{
+
+    display: flex;
+    align-items: center;
+}
+
+.about,.Services,.Our-work,.enroll{
+
+    display: none;
+}
+
+.about{}
+
+.Services{}
+
+.OurWork{}
+
+.enroll{}
+
+.mobile-icon{}

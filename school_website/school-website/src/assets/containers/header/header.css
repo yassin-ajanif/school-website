@@ -1,0 +1,155 @@
+
+.header{
+
+    margin-inline: 7vw
+}
+
+.header-title {
+
+   
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.25rem;
+    line-height: 125%;
+    /* or 45px */
+    
+    color: #FFFFFF;
+
+}
+
+.header-text {
+
+   
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 200%;
+/* or 32px */
+
+
+color: #FFFFFF;
+
+}
+
+.header-btn {
+
+width: 10rem;
+height: 3rem;
+border:none;
+
+background: var(--button-color);
+border-radius: 2rem;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 1rem;
+line-height: 1.5rem;
+/* identical to box height */
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap:.5rem;
+
+color: #FFFFFF;
+
+}
+
+.student-content{
+
+    
+    min-width: calc(100% + 7vw);
+    justify-content: space-between;
+}
+
+.header-btn img { width: 16px; height:16px}
+
+.header-student-image {
+
+    display: block;
+    /*transform: translate(20%, 00%);*/
+   
+}
+
+.header-student-image img{
+
+   
+}
+
+
+.student-content{
+
+    display: flex;
+    
+}
+
+.students-enrols{
+
+    align-self: center;
+}
+
+.header-student-enrol,
+.header-student-rating
+{
+
+background: #FFFFFF;
+border-radius: 24px;
+
+}
+
+.header-student-enrol-numbers,
+.header-student-rating-start
+{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 1.875rem;
+line-height: 125%;
+/* identical to box height, or 38px */
+
+
+color: #023047;
+
+
+}
+
+.header-student-enrol{
+
+
+width: 182px;
+height:75px;
+transform: translate(100px);
+
+}
+
+.header-student-rating{
+
+width: 160px;
+height:75px;
+transform: translate(100px);
+
+}
+
+.header-student-enrol-expression,
+.header-student-rating-overall {
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 0.875rem;
+line-height: 125%;
+/* identical to box height, or 18px */
+
+
+color: #023047;
+
+
+
+}
+
+
+
