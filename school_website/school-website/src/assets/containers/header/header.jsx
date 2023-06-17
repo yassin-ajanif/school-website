@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import btnIcon from '../../containers/header/header-assets/PencilAlt.png'
 import start from '../../containers/header/header-assets/emojione_star.png'
-import studentImg from '../../containers/header/header-assets/student.png'
+import studentImg from '../../containers/header/header-assets/student-image.png'
 import './header.css'
 
 const Header = () => {
@@ -13,6 +13,10 @@ const Header = () => {
 
       <Navbar/>
 
+<div className="header-structure">
+
+    <div className="student-title-text">
+      
       <div className="header-title">Learn the art of 
 Game Dev</div>
       <div className="header-text">This is a comprehensive course on Game Development. You will learn everything from generating an idea to publishing your games to different platforms.</div>
@@ -22,6 +26,8 @@ Game Dev</div>
         <div>Enroll Now</div>
         
       </button>
+
+      </div>
 
     <div className="student-content">
 
@@ -54,6 +60,9 @@ Game Dev</div>
 
     </div>
 
+    </div>
+   
+   
     </div>
   )
 }

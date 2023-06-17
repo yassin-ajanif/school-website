@@ -76,5 +76,7 @@ color: #FFFFFF;
 
 .cta-bars {
 
-    margin-inline: 3.25rem
+    margin-inline:auto;
+    max-width: 300px;
 }
+

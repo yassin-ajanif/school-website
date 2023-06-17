@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 3.75rem;
+    padding-top: 3.75rem;
     
 }
 
@@ -26,17 +26,119 @@
     align-items: center;
 }
 
-.about,.Services,.Our-work,.enroll{
+.navbar-content-links{
 
-    display: none;
+   display: none;
 }
 
-.about{}
 
-.Services{}
+/* this part is a dedicated for a navigation mobile window */
 
-.OurWork{}
 
-.enroll{}
+.navigation-mobile{
 
-.mobile-icon{}
+    position:absolute;
+    width:100vw;
+    height: 100vh;
+    background: #070917;
+    inset: 0;
+    color:white;
+    text-align: center;
+    z-index: 100;
+}
+
+.navigation-mobile-close{
+
+    text-align: end;
+    margin: 14.493vw 7.729vw 0 82.609vw;
+    width:fit-content
+}
+
+.navigation-mobile-content{
+
+    display: grid;
+    justify-content: center;
+    margin-top: 11.563rem;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 2.25rem;
+color: #FFFFFF;
+
+}
+
+.navigation-mobile-content > * {
+
+  margin-bottom: 2rem;
+
+}
+
+.navigation-mobile-enroll{
+
+    background: #DA722C;
+    border-radius: 24px;
+    padding: .75rem 2rem;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 1rem;
+line-height: 1.5rem;
+color: #FFFFFF;
+border: none;
+}
+
+@media screen and (min-width:768px) {
+
+    
+   .logo{
+
+    font-size: 2.5rem;
+
+   }
+
+   .mobile-icon{ display: none;}
+
+   .navbar-content-links{
+
+    display: flex;
+    gap:2.625rem;
+    align-items: center;
+
+   }
+
+   .navbar-content-links >* {
+   font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 1rem;
+line-height: 1.5rem;
+color: #FFFFFF;
+
+   
+}
+
+.enroll {
+
+    background-color: #023047;
+    border-radius: 24px;
+    padding: .75rem 2rem;
+    border:none
+}
+
+    
+}
+
+
+
+/*  */
+
+@media  screen and (min-width :1024px){
+
+   .enroll{
+
+    padding: 16px 32px;
+   }
+}

@@ -60,23 +60,69 @@ padding: 3.75rem 0 4.375rem 0
 }
 
 .email-input-button{
+
     display: grid;
-    margin-inline: 2rem
+    max-width: 350px;
+    min-width:300px;
+    padding-top:10px;
+    padding-inline: 5px;
+    margin:0 auto;
+    
 }
 
-.email-input-button button{
 
-    margin-inline: 8.75rem;  
+.email-input{
+
+
+padding-left:1.8rem;
+padding-top:4px;
+padding-bottom: 4px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 200%;
+
+color: #000000;
+background: #FFFFFF;
+border-radius: 8px;
+
+/*opacity: 0.5;*/
+
+}
+
+.subcribe-button{
+
+   /*margin-inline: 8.75rem;*/
+   font-family: 'Poppins';  
    background: #023047;
    border-radius: 8px;
    font-weight: 400;
    font-size: 1rem;
    line-height: 200%;
-/* identical to box height, or 32px */
+   color: #FFFFFF;
+   margin-top:.8rem;
+   border:none;
+   max-width:135px;
+   justify-self: center;
+   width:135px;
+   margin-bottom:2.5rem ;
+  
 
+}
+
+.copyRight{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: .875rem;
+line-height: 200%;
+/* identical to box height, or 28px */
+
+text-align: center;
 
 color: #FFFFFF;
-
 }
 
 .contact-us-container{}

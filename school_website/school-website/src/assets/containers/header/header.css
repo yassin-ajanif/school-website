@@ -4,7 +4,7 @@
     
     
     background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
-    
+    overflow: hidden;
     
 }
 
@@ -20,10 +20,10 @@
     font-weight: 900;
     font-size: 2.25rem;
     line-height: 125%;
-    /* or 45px */
-    
     color: #FFFFFF;
     margin-top: 3.625rem;
+    max-width: 15ch;
+    
 }
 
 .header-text {
@@ -73,6 +73,7 @@ margin-top: 2.125rem;
     min-width: calc(100% - 6vw);
     justify-content: space-between;
     margin-top: 1.2rem;
+    
 }
 
 .header-btn img { width: 16px; height:16px}
@@ -80,13 +81,14 @@ margin-top: 2.125rem;
 .header-student-image {
 
     display: block;
-    
+    transform: translateX(33%);
+    width:73.913vw;
    
 }
 
 .header-student-image img{
 
-   
+   width:100%
 }
 
 
@@ -164,6 +166,7 @@ color: #023047;
 .student-content{
 
     position:relative;
+    
 }
 
 .header-student-enrol{
@@ -190,6 +193,7 @@ color: #023047;
     position: absolute;
     top: 30%;
     left: 0%;
+    z-index: 10;
 }
 
 .header-student-rating-container {
@@ -202,7 +206,136 @@ border-radius: 24px;
 position: absolute;
 top:63%;
 left:0%;
+z-index: 10;
 
 }
 
 
+@media screen and (min-width: 768px) {
+
+    .header-structure{
+
+       margin-inline: 11.71vw;
+      
+    }
+    .header-student-image{
+
+        max-width: 446px;
+        transform: translateX(24%);
+        
+    }
+
+.header-title{
+
+    margin-top: 155px;
+    font-size: 50px;
+}
+
+.header-text{
+
+    max-width: 77ch;
+}
+
+.header-student-enrol-numbers{
+
+    font-size: 36px;
+}
+
+.header-student-enrol-expression{
+
+    font-size: 1rem
+}
+
+.header-student-rating-start{
+
+    font-size: 36px;
+}
+
+.header-student-rating-overall{
+
+    font-size: 1rem
+}
+
+    
+}
+
+
+/*  */
+
+@media screen and (min-width: 1367px) {
+
+    .header-structure{
+
+       
+        display: flex;
+        margin-inline:7vw
+    }
+
+    .header-structure > * {
+
+        flex-basis: 50%;
+    }
+
+    .header-title{
+
+        margin-top: 118px;
+       
+    }
+
+    .header-text{
+
+        max-width: 52ch;
+    }
+
+    .header-student-image{
+
+        max-width: 446px;
+        transform: translateX(17%);
+    }
+
+
+    .header-btn img {width :1.125rem }
+    .header-btn div {
+
+        font-size: 1.125rem ;
+    }
+    .header-btn{
+         padding: 1rem 2rem;
+         width:12rem
+         }
+    .header-student-enrols-container{
+
+        width:213px;
+        height:97px;
+        
+    }
+
+    .header-student-enrol{
+
+        width:206px;
+        height:90px
+    }
+
+    .header-student-rating-container{
+        width: 188px;
+        height: 98px;
+        left:-4%
+
+    }
+
+    .header-student-rating{
+
+        width: 183px;
+        height: 90px;
+    }
+
+   .student-content{
+
+       min-width: auto;
+       
+   }
+    
+
+    
+
+}
