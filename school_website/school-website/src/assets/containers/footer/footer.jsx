@@ -8,6 +8,8 @@ const Footer = () => {
 
     <div className="footer">
 
+  <div className="footer-content">
+
  <div className="quicklinks-container">
 
   <div className="quick-links">Quick links</div>
@@ -35,6 +37,7 @@ const Footer = () => {
   </div>
 </div>
 
+</div>
 <div className="copyRight">This website is developed by GTCoding © 2021</div>
 
     </div>

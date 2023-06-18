@@ -14,8 +14,6 @@ color: #FFFFFF;
 padding: 3.75rem 0 4.375rem 0
 }
 
-.quicklinks-container{}
-
 .quick-links,.Course,.contact-us{
 
     color: #DA722C;
@@ -31,28 +29,11 @@ padding: 3.75rem 0 4.375rem 0
     margin-bottom: .563rem
 }
 
-.footer-about{}
-
-.contact{}
-
-.privacy{}
-
 .terms{
 
     margin-bottom: 2.25rem;
 }
 
-.Course-container{}
-
-.Course{
-
-
-   
-}
-
-.login{}
-
-.download{}
 
 .all-courses{
 
@@ -94,6 +75,7 @@ border-radius: 8px;
 .subcribe-button{
 
    /*margin-inline: 8.75rem;*/
+   
    font-family: 'Poppins';  
    background: #023047;
    border-radius: 8px;
@@ -102,11 +84,13 @@ border-radius: 8px;
    line-height: 200%;
    color: #FFFFFF;
    margin-top:.8rem;
+   margin-bottom:2.5rem ;
    border:none;
+
    max-width:135px;
    justify-self: center;
    width:135px;
-   margin-bottom:2.5rem ;
+   
   
 
 }
@@ -125,18 +109,73 @@ text-align: center;
 color: #FFFFFF;
 }
 
-.contact-us-container{}
+@media screen and (min-width:728px) {
+    
+    .footer{ padding-inline:7vw}
 
-.contact-us{}
+    .footer-content{
 
-.contact-email{}
+        display: flex;
+        column-gap:132px;
+        flex-wrap: wrap;
 
-.icon{}
+    }
 
-.email-input-button{}
+    .quicklinks-container{
 
-.email{}
+        text-align: start;
+    }
+    .Course-container {
+     
+        text-align: start;
+       
+    }
 
-.email-input{}
+    .contact-us-container {
 
-.submit-button{}
+        text-align: start;
+        
+        
+        
+    }
+
+    .email-input-button{
+        display: flex; 
+        min-width: none;
+        max-width: none;
+        width:521px;
+        max-height: 40px;
+        background-color: white;
+        padding:0;
+        padding-right:6px;
+        border-radius: 8px;
+        margin-bottom: 29px;
+        }
+
+    .email-input{
+
+        flex: 1;
+        border: none;
+    }
+    .subcribe-button{
+        margin:0; 
+        max-height: 30px;
+        align-self: center;
+    }
+    
+.quicklinks-container *:not(:first-child),
+.Course-container *:not(:first-child),
+.contact-us-container *:not(:first-child)
+{
+          margin-left: 20px;
+    }
+
+
+
+
+}
+   
+   
+        
+    
+

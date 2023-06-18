@@ -55,3 +55,32 @@ color: #FFFFFF;
 
 }
 
+@media screen and (min-width : 1024px){
+
+.ourCourses{
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 120%;
+text-align: center;
+color: #FFFFFF;
+
+
+}
+
+.courses-bundle{
+
+    display: flex;
+    gap:83px;
+    margin-inline:7vw
+}
+
+.AllCourses{
+
+    padding: 1rem 2rem;
+    font-size: 18px;
+}
+
+}

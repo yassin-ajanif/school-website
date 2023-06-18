@@ -7,9 +7,13 @@ const Testimonials = () => {
   return (
 
     <div className="testemonials">
+
+  <div className="testimonials-title-text">
  
  <div className="testimonials-title">What our students say</div>
  <div className="testimonials-text">All students get access to all the videos and also the source code of the projects. You will also have access to a private Discord channel where you can discuss your doubts.</div>
+ <button className="testemonial-learn-more desktop">Learn More</button>
+ </div>
 
 <div className="testimonials-structure">
 
@@ -40,10 +44,15 @@ const Testimonials = () => {
   </div>
 </div>
 
+
+
 <div className="testemonial-bar"></div>
-<button className="testemonial-learn-more">Learn More</button>
+
 
 </div>
+
+<button className="testemonial-learn-more mobile">Learn More</button>
+
 
 
     </div>

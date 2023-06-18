@@ -195,8 +195,14 @@ top: 0;
 background: #023047;
 border-radius: 24px;
 z-index:-1;
-margin-left:12vw
+margin-left:12vw;
+
+/*margin-right:10;*/
 }
+
+
+
+
 
 .testemonial-learn-more{
 
@@ -217,4 +223,89 @@ line-height: 1.5rem;
 color: #ffffff;
 margin-inline-start: auto;
 
+}
+
+.desktop{ display: none; }
+
+.mobile { display: block;}
+
+@media screen and (min-width: 1024px){
+
+   .testemonials{
+
+   display: flex;
+   gap:102px;
+
+   }
+
+   .desktop{ display: block; }
+
+   .mobile { display: none;}
+
+   .testimonials-title-text{
+    
+    order:1;
+    max-width: 559px;
+    align-self: center;
+    
+   }
+
+   .testimonials-title{
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 120%;
+/* or 72px */
+
+
+color: #023047;
+   }
+
+   .testimonials-text{
+
+   }
+
+   .testimonials-structure{
+
+   
+    
+   }
+
+   .testemonial-learn-more{
+
+    padding: 1rem 2rem;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+margin: 0;
+
+   }
+
+
+
+   
+    .testimonials-structure{
+
+    max-width: 474px;
+    
+    
+   }
+
+   .testemonial-bar{
+
+    margin-left: 4.5vw;
+   }
+.jacob-testimonials{
+
+    margin-left: 1vw;
+}
+    
 }

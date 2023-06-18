@@ -33,8 +33,12 @@ const Courses = () => {
     <div className="courses">
 
     <div className="ourCourses">Our Courses</div>
+
+    <div className="courses-bundle">
     <Course {...courses.course1}/>
     <Course {...courses.course2}/>
+    </div>
+    
     <button className='AllCourses'>All Courses</button>
    
     
