@@ -5,13 +5,15 @@ import start from '../../containers/header/header-assets/emojione_star.png'
 import studentImg from '../../containers/header/header-assets/student-image.png'
 import './header.css'
 
+
 const Header = () => {
+
 
   return (
 
     <div className="header">
 
-      <Navbar/>
+      <Navbar changeBackColor={false}/>
 
 <div className="header-structure">
 

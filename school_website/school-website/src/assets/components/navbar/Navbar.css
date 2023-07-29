@@ -13,11 +13,20 @@
 
 .navbar{
 
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 3.75rem;
     
+}
+
+ .styled {
+ 
+   
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+    /* border: 1px solid red; */
+    padding: 24px 64px;
 }
 
 .navbar-content{

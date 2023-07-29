@@ -3,12 +3,9 @@ import imgCourse1 from '../../containers/courses/courses-assets/image1.png'
 import imgCourse2 from '../../containers/courses/courses-assets/image2.png'
 import clock from '../../containers/courses/courses-assets/clock.png'
 import Course from '../../components/course/Course'
-import './courses.css'
-import { useNavigate } from 'react-router-dom'
 
-const Courses = () => {
 
-  const navigate = useNavigate()
+const AllCourses = () => {
 
   const courses = {
 
@@ -25,13 +22,46 @@ const Courses = () => {
         hours:8,
         img:imgCourse2,
         timeIcon:clock
-      }
+      },
 
-  }
+      course3 : {
 
-  function navigateToAllCoursesPage(){
+        title:'Dynamic Game engine Fundamentals',
+        hours:10,
+        img:imgCourse2,
+        timeIcon:clock
+      },
 
-    navigate('/allCourses')
+      course4 : {
+
+        title:'Dynamic Game engine Fundamentals',
+        hours:10,
+        img:imgCourse2,
+        timeIcon:clock
+      },
+
+      course5 : {
+
+        title:'Dynamic Game engine Fundamentals',
+        hours:10,
+        img:imgCourse2,
+        timeIcon:clock
+      },
+
+      course6 : {
+
+        title:'Dynamic Game engine Fundamentals',
+        hours:10,
+        img:imgCourse2,
+        timeIcon:clock
+      },
+
+
+
+      
+
+
+
   }
 
  
@@ -45,15 +75,17 @@ const Courses = () => {
     <div className="courses-bundle">
     <Course {...courses.course1}/>
     <Course {...courses.course2}/>
+    <Course {...courses.course3}/>
+    <Course {...courses.course4}/>
+    <Course {...courses.course5}/>
+    <Course {...courses.course6}/>
     </div>
     
-    <button className='AllCourses' onClick={navigateToAllCoursesPage}>All Courses</button>
-   
-    
+
 
     </div>
   )
 
 }
 
-export default Courses
+export default AllCourses

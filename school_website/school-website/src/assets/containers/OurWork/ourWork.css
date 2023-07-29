@@ -1,0 +1,88 @@
+
+.ourWork {
+
+    padding-block: 60px;
+    margin-inline:auto;
+    color: #023047;
+    max-width: 1024px;
+    
+    
+}
+
+.ourWork h2, .ourWork h3{
+
+    font-family: var(--title-font);
+    margin-block: 30px;
+    font-size: 24px;
+     
+}
+
+.ourWork h2{
+
+    margin-bottom: 50px;
+    font-size: 40px;
+    margin-inline:auto;
+    max-width: 30ch;
+    text-align: center;
+    line-height: 180%;
+}
+
+.ourWork p{
+
+    font-family: var(--text-font);
+}
+
+.ourWork img{
+
+    width:100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0px 9px 36px rgba(0, 0, 0, 0.2);
+
+}
+
+@media screen and (min-width:768px) {
+
+    .sercive1-group{ display: grid;  grid-template-columns: 1fr 1fr; align-items: center; column-gap:30px}
+    .sercive2-group{ display: grid; grid-template-columns: 1fr 1fr;align-items: center; column-gap:30px}
+    .sercive3-group{ display: grid; grid-template-columns: 1fr 1fr;align-items: center; column-gap:30px}
+    .sercive4-group{ display: grid; grid-template-columns: 1fr 1fr;align-items: center; column-gap:30px}
+    .sercive5-group{ display: grid; grid-template-columns: 1fr 1fr;align-items: center; column-gap:30px}
+    .sercive6-group{ display: grid; grid-template-columns: 1fr 1fr;align-items: center; column-gap:30px}
+    
+    .ourWork img{ margin:0 }
+
+    .ourWork p{
+
+       line-height: 180%;
+    }
+
+    .ourWork h3{
+
+        font-size: 24px;
+    }
+
+   
+}
+
+@media screen and (min-width:1024px) {
+
+    .ourWork h3{
+
+        font-size: 32px;
+        margin-block:50px
+    }
+    
+    .ourWork p{
+
+        line-height: 180%;
+        font-size: 20px;
+     }
+
+     .ourWork h2{
+
+        font-size: 48px;
+    }
+
+}
+

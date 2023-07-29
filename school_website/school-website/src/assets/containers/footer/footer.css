@@ -68,8 +68,11 @@ color: #000000;
 background: #FFFFFF;
 border-radius: 8px;
 
-/*opacity: 0.5;*/
+}
 
+.email-input:focus{
+
+    outline: none;
 }
 
 .subcribe-button{

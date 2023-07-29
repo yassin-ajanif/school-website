@@ -72,7 +72,8 @@ color: #FFFFFF;
 
 .courses-bundle{
 
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap:83px;
     margin-inline:7vw
 }

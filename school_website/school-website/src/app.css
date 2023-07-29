@@ -14,16 +14,22 @@
     --orange-testemonial-bar: #DA722C;
     ---bar-courses:#023047;
 
-    --Raleway : font-family: 'Raleway', sans-serif;
-    --Poppins : font-family: 'Poppins', sans-serif;
-    
+    --title-font :  'Raleway', sans-serif;
+    --text-font : 'Poppins', sans-serif;
 }
 
 body {
   
     width:100%;
     background-color: #ffffff;
-    border: 2px solid red
+    
     
 
+}
+
+button:hover{
+
+    opacity: .9;
+    scale:1.02;
+    cursor: pointer;
 }
