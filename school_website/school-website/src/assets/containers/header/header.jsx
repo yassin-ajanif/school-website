@@ -4,11 +4,17 @@ import btnIcon from '../../containers/header/header-assets/PencilAlt.png'
 import start from '../../containers/header/header-assets/emojione_star.png'
 import studentImg from '../../containers/header/header-assets/student-image.png'
 import './header.css'
+import { useNavigate } from 'react-router-dom'
 
 
 const Header = () => {
 
+const navigate = useNavigate()
 
+function navigateToOurcoursesPage(){
+
+  navigate('/allCourses')
+}
   return (
 
     <div className="header">
@@ -22,10 +28,10 @@ const Header = () => {
       <div className="header-title">Learn the art of 
 Game Dev</div>
       <div className="header-text">This is a comprehensive course on Game Development. You will learn everything from generating an idea to publishing your games to different platforms.</div>
-      <button className="header-btn">
+      <button className="header-btn" onClick={navigateToOurcoursesPage}>
 
         <img src={btnIcon} alt="" />
-        <div>Enroll Now</div>
+        <div >Enroll Now</div>
         
       </button>
 

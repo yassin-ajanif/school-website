@@ -13,30 +13,43 @@ const Navbar = ({changeBackColor}) => {
 
 
 // this section is for procedures
+  function showTheMobileMenu(){
+   
+    seticonToggle(true);
+    document.body.style.overflow = 'hidden';
+
+
+  }
 
   function closeTheMobileMenu(){
 
-    seticonToggle(!iconToggle)
+    seticonToggle(false);
+    document.body.style.overflow = 'auto';
+
   }
 
   function NavigateToAboutPage(){
 
     navigate('/aboutPage')
+    closeTheMobileMenu()
   }
 
   function NavigateToServicesPage(){
 
     navigate('/services')
+   closeTheMobileMenu()
   }
 
   function NavigateToOourWorkPage(){
 
     navigate('/ourWork')
+    closeTheMobileMenu()
   }
 
   function NavigateToEnrollNowPage(){
 
     navigate('/allCourses')
+    closeTheMobileMenu()
   }
 
   function navigateToHomePage(){
@@ -82,7 +95,7 @@ const Navbar = ({changeBackColor}) => {
       </div>
     
          <div className="mobile-icon"
-              onClick={()=>seticonToggle(!iconToggle)}>
+              onClick={showTheMobileMenu}>
 
         <img src={iconMobile}/></div>
 

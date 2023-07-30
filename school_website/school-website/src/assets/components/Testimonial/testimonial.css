@@ -1,0 +1,148 @@
+
+/* TestimonialBox.css */
+.testimonial-container {
+    display: grid;
+    max-width: 800px;
+    margin: 0 auto;
+    padding:7vw;
+    row-gap: 7vw;
+    
+  }
+
+  .testimonial-container h2{
+
+    font-family: var(--text-font);
+    margin-inline:auto;
+    font-size: 40px;
+    max-width: 10ch;
+    text-align: center;
+
+  }
+  
+  /*--blue-testemonial-bar: #6F7DFB;
+  --orange-testemonial-bar: #DA722C;*/
+
+  .testimonial {
+   /* background-color: white;*/
+    
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    display: grid;
+    margin: 0 auto
+  }
+  
+  .testimonial-text {
+    padding: 20px;
+    /*background-color: var(--orange-testemonial-bar);*/
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    color:white
+  }
+  
+  .testimonial-info {
+    margin-top: 20px;
+    display: block;
+  }
+
+  .testimonial-info-image{
+
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    
+  }
+
+  .testimonial img{
+
+    object-fit: contain;
+  }
+  
+  .testimonial-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    width:max-content
+  }
+  
+  .testimonial-designation {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Optional: Add media queries to make the testimonials responsive */
+  @media (max-width: 480px) {
+    .testimonial {
+      width: 100%;
+    }
+  }
+
+  @media screen  and (min-width:768px){
+
+
+    .testimonial{
+        width:700px;
+        grid-template-columns: 345px 1fr;
+        gap: 20px;
+        
+    }
+
+    .testimonial-container h2{
+
+   
+      font-size: 48px;
+      max-width: none;
+    
+  
+    }
+
+    .testimonial-text{margin:0}
+    
+    .testimonial img{
+
+        max-width: 100px;
+        margin-right: 20px;
+        
+      }
+
+    .testimonial-info-image{
+
+        justify-content: space-between;
+        align-items: center;
+        /*padding-left: 10px;*/
+        gap:0
+      
+    }
+
+    .testimonial-info{
+
+        height: max-content;
+        
+
+    }
+
+    .testimonial-name {
+
+        font-size: 24px;
+    }
+
+    .testimonial-designation {
+
+        font-size: 20px;
+
+
+    }
+
+   
+
+    .testimonial-designation{
+
+        width:max-content
+    }
+
+
+  }
+  

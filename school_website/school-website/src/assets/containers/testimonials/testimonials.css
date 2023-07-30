@@ -4,6 +4,7 @@
 
     margin: 6.25rem 0 6.25rem 0;
     margin-inline: 7vw;
+
 }
 .testimonials-title{
 
@@ -235,8 +236,11 @@ margin-inline-start: auto;
 
    display: flex;
    gap:102px;
+   justify-content: center;
 
    }
+
+ 
 
    .desktop{ display: block; }
 

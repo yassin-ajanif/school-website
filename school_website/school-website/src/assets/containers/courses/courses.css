@@ -55,6 +55,27 @@ color: #FFFFFF;
 
 }
 
+.course .enrollBtn{
+
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    background: var(--button-color);
+    border-radius: 2rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: #FFFFFF;
+    margin-inline:auto 0;
+    margin-bottom: 10px;
+}
+
 @media screen and (min-width : 1024px){
 
 .ourCourses{

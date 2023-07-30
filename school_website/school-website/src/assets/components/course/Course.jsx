@@ -25,7 +25,7 @@ const Course = ({title,img,hours,timeIcon}) => {
 
       </div>
     </div>
-
+    
 
     <div className="course-bar"></div>
    </div>

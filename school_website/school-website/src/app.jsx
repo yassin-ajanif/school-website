@@ -10,6 +10,8 @@ import TermsAndConditionsPage from './assets/components/PolicyTerms/TermsAndCond
 import { BrowserRouter,Routes,Route, useLocation } from 'react-router-dom'
 import Navbar from './assets/components/navbar/Navbar'
 import ContactPage from './assets/components/contactUs/Contact'
+import TestimonialPage from './assets/components/Testimonial/Testimonial'
+import PricingPage from './assets/containers/pricing/Pricing'
 
 const App = () => {
 
@@ -21,8 +23,11 @@ const App = () => {
 
 
       <>
+      
+      
       <Header/>
       <Testimonials/>
+      <PricingPage/>
       <Courses/>
       <CTA/>
 
@@ -51,6 +56,7 @@ const App = () => {
        <Route path='/allCourses' element={<><Navbar changeBackColor={true}/><AllCourses/></>}/>
        <Route path='/ourWork' element={<><Navbar changeBackColor={true}/><OurWork/></>}/>
        <Route path='/contactUs' element={<><Navbar changeBackColor={true}/><ContactPage/></>}/>
+       <Route path='/testimonials' element={<><Navbar changeBackColor={true}/><TestimonialPage/></>}/>
         
       </Routes> 
 

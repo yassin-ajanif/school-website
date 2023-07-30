@@ -1,0 +1,118 @@
+/* PricingPage.css */
+.pricing-container {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+
+  .pricingPlansTitle{
+
+    text-align: center;
+    font-size:64px;
+    font-family: var(--text-font);
+    margin-bottom: 30px;
+  }
+
+  .pricing-container h2{
+
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+    font-family: var(--text-font);
+   
+   
+  
+
+  }
+  
+  .pricing-option {
+
+    background:linear-gradient(50deg, #6F7DFB 0%, #5e3a29 100%);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 80px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    color: #070707;
+    border-bottom: 1px solid var(--button-color); 
+    border-top: 2px solid var(--button-color);
+    border-right: 3px solid var(--button-color);
+    border-right: 3px solid var(--button-color);
+    /*border-left: 3px solid var(--button-color);*/
+  }
+  
+  .pricing-option h2 {
+    
+    font-size: 28px;
+    color:white;
+    font-family: var(--text-font);
+
+  }
+  
+  .pricing-option .price {
+    font-size: 36px;
+    color: white;
+    background-color: var(--button-color);
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .pricing-option ul {
+    /*list-style: none;*/
+    padding: 0;
+    margin-bottom: 20px;
+    color:white;
+    font-family: var(--text-font);
+    font-size: 14px;
+    text-align: start;
+    margin-inline:auto;
+    width: max-content;
+  }
+  
+  .pricing-option ul li {
+    margin-bottom: 10px;
+  }
+  
+  .pricing-option button {
+    
+    background-color: var(--button-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+    font-family: var(--title-font);
+  
+  }
+  
+  .pricing-option button:hover {
+    background-color: #ff6347;
+  }
+  
+  .blue-testemonial-bar {
+    background-color: var(--blue-testemonial-bar);
+  }
+  
+  .orange-testemonial-bar {
+    background-color: var(--orange-testemonial-bar);
+  }
+  
+  @media screen and (min-width:1024px) {
+    
+
+    .pricing-container {
+
+        display: flex;
+   
+       
+      }
+      
+     
+
+  }

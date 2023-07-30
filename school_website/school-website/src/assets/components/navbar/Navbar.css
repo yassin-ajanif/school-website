@@ -21,6 +21,8 @@
     
 }
 
+/*.navbar > *:hover{ cursor: pointer; scale: 1.02;}*/
+
  .styled {
  
    
@@ -67,7 +69,7 @@
 
     display: grid;
     justify-content: center;
-    margin-top: 11.563rem;
+    margin-top: 1.563rem;
 
 font-family: 'Poppins';
 font-style: normal;
