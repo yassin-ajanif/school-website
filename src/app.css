@@ -7,7 +7,7 @@
 }
 
 :root {
-
+   
     --button-color: #DA722C;
     --footer-background: #070917;
     --blue-testemonial-bar: #6F7DFB;
@@ -16,6 +16,7 @@
 
     --title-font :  'Raleway', sans-serif;
     --text-font : 'Poppins', sans-serif;
+    --black-color:'black'
 }
 
 body {
