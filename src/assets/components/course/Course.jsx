@@ -1,5 +1,5 @@
 import React from 'react'
-import './course.css'
+import './Course.css'
 
 const Course = ({title,img,hours,timeIcon}) => {
 
