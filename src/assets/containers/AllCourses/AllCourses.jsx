@@ -57,11 +57,6 @@ const AllCourses = () => {
       },
 
 
-
-      
-
-
-
   }
 
  
